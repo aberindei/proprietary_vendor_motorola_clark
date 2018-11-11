@@ -17,38 +17,38 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/motorola/clark/proprietary/bin/adspd:system/bin/adspd \
-    vendor/motorola/clark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/clark/proprietary/bin/adspd:system/vendor/bin/adspd \
+    vendor/motorola/clark/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/clark/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/motorola/clark/proprietary/bin/cnd:system/bin/cnd \
-    vendor/motorola/clark/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
+    vendor/motorola/clark/proprietary/bin/cnd:system/vendor/bin/cnd \
+    vendor/motorola/clark/proprietary/bin/dbvc_atvc_property_set:system/vendor/bin/dbvc_atvc_property_set \
     vendor/motorola/clark/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/motorola/clark/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/motorola/clark/proprietary/bin/diag_mdlog-getlogs:system/bin/diag_mdlog-getlogs \
     vendor/motorola/clark/proprietary/bin/diag_mdlog-wrap:system/bin/diag_mdlog-wrap \
     vendor/motorola/clark/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
     vendor/motorola/clark/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/motorola/clark/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
+    vendor/motorola/clark/proprietary/bin/hardware_revisions.sh:system/vendor/bin/hardware_revisions.sh \
     vendor/motorola/clark/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/clark/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/motorola/clark/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/motorola/clark/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/clark/proprietary/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/motorola/clark/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/motorola/clark/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/clark/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/motorola/clark/proprietary/bin/motosh:system/bin/motosh \
-    vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/motorola/clark/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/clark/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/clark/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/motorola/clark/proprietary/bin/motosh:system/vendor/bin/motosh \
+    vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/motorola/clark/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/clark/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/motorola/clark/proprietary/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/clark/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/clark/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/clark/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/motorola/clark/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/motorola/clark/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/motorola/clark/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/clark/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/motorola/clark/proprietary/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/motorola/clark/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/motorola/clark/proprietary/bin/rfs_access:system/vendor/bin/rfs_access \
+    vendor/motorola/clark/proprietary/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/motorola/clark/proprietary/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/motorola/clark/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/clark/proprietary/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/clark/proprietary/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/clark/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
