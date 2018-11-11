@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/clark/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/motorola/clark/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/motorola/clark/proprietary/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/clark/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/clark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -76,70 +76,70 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/diag_mdlog/WLAN_V1.cfg:system/etc/diag_mdlog/WLAN_V1.cfg \
     vendor/motorola/clark/proprietary/etc/diag_mdlog/default.cfg:system/etc/diag_mdlog/default.cfg \
     vendor/motorola/clark/proprietary/etc/diag_mdlog/default.opts:system/etc/diag_mdlog/default.opts \
-    vendor/motorola/clark/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware//BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/motorola/clark/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware//a420_pfp.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware//a420_pm4.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware//cpp_firmware_v1_1_1.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware//cpp_firmware_v1_1_6.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware//cpp_firmware_v1_2_0.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware//cpp_firmware_v1_4_0.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware//cpp_firmware_v1_6_0.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware//cpp_firmware_v1_8_0.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b00:system/vendor/firmware//dxhdcp2.b00 \
-    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b01:system/vendor/firmware//dxhdcp2.b01 \
-    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b02:system/vendor/firmware//dxhdcp2.b02 \
-    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b03:system/vendor/firmware//dxhdcp2.b03 \
-    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.mdt:system/vendor/firmware//dxhdcp2.mdt \
-    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/vendor/firmware//florida-dsp2-aov-frontend.wmfw \
-    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/vendor/firmware//florida-dsp3-aov-control.wmfw \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.config:system/vendor/firmware//left.tfa9890.music.config \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.eq:system/vendor/firmware//left.tfa9890.music.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/vendor/firmware//left.tfa9890.ringtone.config \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.eq:system/vendor/firmware//left.tfa9890.ringtone.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.speaker:system/vendor/firmware//left.tfa9890.speaker \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.config:system/vendor/firmware//left.tfa9890.voice.config \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.eq:system/vendor/firmware//left.tfa9890.voice.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/vendor/firmware//left.tfa9890_music_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/vendor/firmware//left.tfa9890_n1b12.patch \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/vendor/firmware//left.tfa9890_n1c2.patch \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/vendor/firmware//left.tfa9890_ringtone_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/vendor/firmware//left.tfa9890_voice_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/leia_pfp_470.fw:system/vendor/firmware//leia_pfp_470.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/leia_pm4_470.fw:system/vendor/firmware//leia_pm4_470.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv.bin:system/vendor/firmware//nvm_tlv.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/vendor/firmware//nvm_tlv_1.3.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/vendor/firmware//nvm_tlv_2.1.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/vendor/firmware//nvm_tlv_3.0.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/vendor/firmware//nvm_tlv_3.2.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv.img:system/vendor/firmware//rampatch_tlv.img \
-    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware//rampatch_tlv_1.3.tlv \
-    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware//rampatch_tlv_2.1.tlv \
-    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware//rampatch_tlv_3.0.tlv \
-    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware//rampatch_tlv_3.2.tlv \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.config:system/vendor/firmware//right.tfa9890.music.config \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.eq:system/vendor/firmware//right.tfa9890.music.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.config:system/vendor/firmware//right.tfa9890.ringtone.config \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.eq:system/vendor/firmware//right.tfa9890.ringtone.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.speaker:system/vendor/firmware//right.tfa9890.speaker \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.config:system/vendor/firmware//right.tfa9890.voice.config \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.eq:system/vendor/firmware//right.tfa9890.voice.eq \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_music_table.preset:system/vendor/firmware//right.tfa9890_music_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1b12.patch:system/vendor/firmware//right.tfa9890_n1b12.patch \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/vendor/firmware//right.tfa9890_n1c2.patch \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/vendor/firmware//right.tfa9890_ringtone_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/vendor/firmware//right.tfa9890_voice_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/sensorhubfw.bin:system/vendor/firmware//sensorhubfw.bin \
-    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s2726-15052160-1d19d9-clark.tdat:system/vendor/firmware//synaptics-s2726-15052160-1d19d9-clark.tdat \
-    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528-15071401-1e29b4-clark.tdat:system/vendor/firmware//synaptics-s3528-15071401-1e29b4-clark.tdat \
-    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat:system/vendor/firmware//synaptics-s3528ar-15071401-1e29b4-clark.tdat \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.b00:system/vendor/firmware//venus.b00 \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.b01:system/vendor/firmware//venus.b01 \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.b02:system/vendor/firmware//venus.b02 \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.b03:system/vendor/firmware//venus.b03 \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.b04:system/vendor/firmware//venus.b04 \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.mbn:system/vendor/firmware//venus.mbn \
-    vendor/motorola/clark/proprietary/etc/firmware/venus.mdt:system/vendor/firmware//venus.mdt \
-    vendor/motorola/clark/proprietary/etc/firmware/vrgain.bin:system/vendor/firmware//vrgain.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd \
+    vendor/motorola/clark/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b00:system/vendor/firmware/dxhdcp2.b00 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b01:system/vendor/firmware/dxhdcp2.b01 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b02:system/vendor/firmware/dxhdcp2.b02 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b03:system/vendor/firmware/dxhdcp2.b03 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.mdt:system/vendor/firmware/dxhdcp2.mdt \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/vendor/firmware/florida-dsp2-aov-frontend.wmfw \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/vendor/firmware/florida-dsp3-aov-control.wmfw \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.config:system/vendor/firmware/left.tfa9890.music.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.eq:system/vendor/firmware/left.tfa9890.music.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/vendor/firmware/left.tfa9890.ringtone.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.eq:system/vendor/firmware/left.tfa9890.ringtone.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.speaker:system/vendor/firmware/left.tfa9890.speaker \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.config:system/vendor/firmware/left.tfa9890.voice.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.eq:system/vendor/firmware/left.tfa9890.voice.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/vendor/firmware/left.tfa9890_music_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/vendor/firmware/left.tfa9890_n1b12.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/vendor/firmware/left.tfa9890_n1c2.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/vendor/firmware/left.tfa9890_ringtone_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/vendor/firmware/left.tfa9890_voice_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/vendor/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware/rampatch_tlv_3.2.tlv \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.config:system/vendor/firmware/right.tfa9890.music.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.eq:system/vendor/firmware/right.tfa9890.music.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.config:system/vendor/firmware/right.tfa9890.ringtone.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.eq:system/vendor/firmware/right.tfa9890.ringtone.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.speaker:system/vendor/firmware/right.tfa9890.speaker \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.config:system/vendor/firmware/right.tfa9890.voice.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.eq:system/vendor/firmware/right.tfa9890.voice.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_music_table.preset:system/vendor/firmware/right.tfa9890_music_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1b12.patch:system/vendor/firmware/right.tfa9890_n1b12.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/vendor/firmware/right.tfa9890_n1c2.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/vendor/firmware/right.tfa9890_ringtone_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/vendor/firmware/right.tfa9890_voice_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/sensorhubfw.bin:system/vendor/firmware/sensorhubfw.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s2726-15052160-1d19d9-clark.tdat:system/vendor/firmware/synaptics-s2726-15052160-1d19d9-clark.tdat \
+    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528-15071401-1e29b4-clark.tdat:system/vendor/firmware/synaptics-s3528-15071401-1e29b4-clark.tdat \
+    vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat:system/vendor/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/motorola/clark/proprietary/etc/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/motorola/clark/proprietary/etc/firmware/vrgain.bin:system/vendor/firmware/vrgain.bin \
     vendor/motorola/clark/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.motorola.camera.xml:system/vendor/etc/permissions/com.motorola.camera.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.motorola.gallery.xml:system/vendor/etc/permissions/com.motorola.gallery.xml \
