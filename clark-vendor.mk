@@ -128,7 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/vendor/firmware/right.tfa9890_n1c2.patch \
     vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/vendor/firmware/right.tfa9890_ringtone_table.preset \
     vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/vendor/firmware/right.tfa9890_voice_table.preset \
-    vendor/motorola/clark/proprietary/etc/firmware/sensorhubfw.bin:system/vendor/firmware/sensorhubfw.bin \
+    vendor/motorola/clark/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/clark/proprietary/etc/firmware/synaptics-s2726-15052160-1d19d9-clark.tdat:system/vendor/firmware/synaptics-s2726-15052160-1d19d9-clark.tdat \
     vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528-15071401-1e29b4-clark.tdat:system/vendor/firmware/synaptics-s3528-15071401-1e29b4-clark.tdat \
     vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat:system/vendor/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat \
