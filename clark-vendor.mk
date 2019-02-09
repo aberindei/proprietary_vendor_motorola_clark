@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/clark/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/clark/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
+    vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
@@ -376,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_pdaf_v3.so:system/vendor/lib/libmmcamera_pdaf_v3.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
@@ -572,6 +574,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/motorola/clark/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/clark/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+#    vendor/motorola/clark/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
+#    vendor/motorola/clark/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
+#    vendor/motorola/clark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+#    vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+#    vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
