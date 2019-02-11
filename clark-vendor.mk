@@ -52,13 +52,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/clark/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/clark/proprietary/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/clark/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/clark/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/motorola/clark/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
