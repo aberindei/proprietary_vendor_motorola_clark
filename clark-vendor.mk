@@ -570,23 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/clark/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
-# Needed only for camera wrapper
-
-#    vendor/motorola/clark/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
-#    vendor/motorola/clark/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
-#    vendor/motorola/clark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-#    vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-#    vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-
-
-# Building these instead
-
-#    vendor/motorola/clark/proprietary/bin/motosh:system/vendor/bin/motosh \
-#    vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
-#    vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
-#    vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
-
-
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
