@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/clark/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/motorola/clark/proprietary/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/clark/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/clark/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
@@ -157,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/motorola/clark/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/clark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
     vendor/motorola/clark/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/clark/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
@@ -179,8 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/clark/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/clark/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
-    vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
-    vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
     vendor/motorola/clark/proprietary/lib64/libadspd.so:system/lib64/libadspd.so \
     vendor/motorola/clark/proprietary/lib64/libbson.so:system/lib64/libbson.so \
@@ -574,11 +570,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/clark/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
+# Needed only for camera wrapper
+
 #    vendor/motorola/clark/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
 #    vendor/motorola/clark/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
 #    vendor/motorola/clark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 #    vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 #    vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+
+
+# Building these instead
+
+#    vendor/motorola/clark/proprietary/bin/motosh:system/vendor/bin/motosh \
+#    vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
+#    vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
+#    vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
+
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
